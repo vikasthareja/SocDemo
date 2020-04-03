@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trading.TradeRepository", "Trading.TradeRepository\Trading.TradeRepository.csproj", "{77FB5B51-0A48-41D6-A9C1-AC160DAF8CC0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trading.Common", "Trading.Common\Trading.Common.csproj", "{F86501E7-D5EC-4258-B80B-F535A23CF580}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trading.CentralRepository", "Trading.CentralRepository\Trading.CentralRepository.csproj", "{33FAB277-0685-4F85-9F64-B05DE5406973}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{77FB5B51-0A48-41D6-A9C1-AC160DAF8CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77FB5B51-0A48-41D6-A9C1-AC160DAF8CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77FB5B51-0A48-41D6-A9C1-AC160DAF8CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77FB5B51-0A48-41D6-A9C1-AC160DAF8CC0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F86501E7-D5EC-4258-B80B-F535A23CF580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F86501E7-D5EC-4258-B80B-F535A23CF580}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F86501E7-D5EC-4258-B80B-F535A23CF580}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F86501E7-D5EC-4258-B80B-F535A23CF580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FAB277-0685-4F85-9F64-B05DE5406973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FAB277-0685-4F85-9F64-B05DE5406973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FAB277-0685-4F85-9F64-B05DE5406973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FAB277-0685-4F85-9F64-B05DE5406973}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Trading.TradeRepository")]
+[assembly: AssemblyTitle("Trading.CentralRepository")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Trading.TradeRepository")]
+[assembly: AssemblyProduct("Trading.CentralRepository")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("77fb5b51-0a48-41d6-a9c1-ac160daf8cc0")]
+[assembly: Guid("33fab277-0685-4f85-9f64-b05de5406973")]
 
 // Version information for an assembly consists of the following four values:
 //

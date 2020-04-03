@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Trading.Common
 {
-    public class Trade : ITrade
+    public interface ITrade
     {
-        public long TradeID { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        long TradeID { get; set; }
     }
 }

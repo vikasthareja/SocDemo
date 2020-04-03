@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Trading.Common
 {
-    public class Trade : ITrade
+   public enum TradeMessageType
     {
-        public long TradeID { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        Added = 1,
+        Amended,
+        Cancelled // only intra-day.
     }
 }
