@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Trading.Common
 {
-    public interface ITrade
+    public interface IMessagingClient : IDisposable
     {
-        long TradeID { get; set; }
-
-        TradeType Type { get; set; }
+        void Subscribe(string topic, Action<MPSMessage> handler);
+        void UnSubscribe(string topic);
     }
 }

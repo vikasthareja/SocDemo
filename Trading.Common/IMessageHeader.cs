@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Trading.Common
 {
-    public interface IMessageProcessor
+    public interface IMessageHeader
     {
-        void ProcessMessage(TradeMessage message);
+        long MessageKey { get; set; }
+
     }
 }

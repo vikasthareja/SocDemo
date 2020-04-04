@@ -8,6 +8,13 @@ namespace Trading.Common
 {
     public class Trade : ITrade
     {
-        public long TradeID { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public long TradeID { get; set; }
+        public TradeType Type { get; set; }
+
+        public double Quantity { get; set; }
+
+        public int ClientID { get; set; }
+
+        public int InstrumentUIC { get; set; }
     }
 }

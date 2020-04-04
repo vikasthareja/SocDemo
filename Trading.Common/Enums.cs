@@ -12,4 +12,11 @@ namespace Trading.Common
         Amended,
         Cancelled // only intra-day.
     }
+
+    public enum TradeType
+    {
+        EQ = 1,
+        FX,
+        Opt
+    }
 }
