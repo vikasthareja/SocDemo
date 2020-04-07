@@ -55,6 +55,7 @@ namespace Trading.CentralRepository
 
         private void InitializeQueues()
         {
+        // Use BlockingCollection in production code.
             Array tradeTypes = Enum.GetValues(typeof(TradeType));
             foreach (TradeType item in tradeTypes)
             {
